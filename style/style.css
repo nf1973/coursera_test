@@ -14,6 +14,19 @@
     width: inherit;
 }
 
+.credit {
+    font-size: 0.8em;
+    font-style: italic;
+    margin: inherit;
+    margin-top: -2px;
+    text-align: right;
+    color: rgb(165, 165, 165);
+}
+
+.credit a {
+    color: rgb(165, 165, 165);
+}
+
 #everything {
     width: 500px;
     margin: 5px;
