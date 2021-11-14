@@ -6,6 +6,7 @@
     font-size: 14pt;
     border:rgb(45, 73, 17) 1px solid;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .pic {
@@ -15,4 +16,5 @@
 
 #everything {
     width: 500px;
+    margin: 5px;
 }
