@@ -1,0 +1,18 @@
+.hello {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 73, 17);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14pt;
+    border:rgb(45, 73, 17) 1px solid;
+    border-radius: 10px;
+}
+
+.pic {
+    border-radius: 10px;
+    width: inherit;
+}
+
+#everything {
+    width: 500px;
+}
