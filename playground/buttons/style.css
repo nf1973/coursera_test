@@ -1,13 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#buttons {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .button {
     
-    border: none;
+    border: 1px solid black;
     color: white;
-    padding: 15px 32px;
+    /* padding: 15px 32px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 5px; 
     cursor: pointer;
     width: 150px;
     height: 150px;
@@ -16,7 +28,8 @@
   .button1 {background-color: #4CAF50;}/* Green */
   .button2 {background-color: #008CBA;} /* Blue */
   .button3 {background-color: #f44336;
-            clear: left;} /* Red */ 
+            clear: left;
+          } /* Red */ 
   .button4 {background-color: #f6fa08; color: black;} /* Yellow */ 
 
   
