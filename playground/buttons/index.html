@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Button Clicks</h2>
+    <h1>Repeat the Pattern</h1>
 
-    <p>Click any button:</p>
+    <div class="centered">
+        <button onClick="startGame()" id="startButton">Start!</button>
+    </div>
 
     <div id="buttons">
         <button onclick="btnClick('Green')" class="button button1">Green</button>
@@ -21,13 +23,7 @@
 
     <div id="result"></div>
 
-    <script>
-        function btnClick(col) {
-          document.getElementById("result").innerHTML = col+" was clicked";
-        }
-    </script>
-
-
+    <script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>
