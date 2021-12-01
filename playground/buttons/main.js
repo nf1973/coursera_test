@@ -41,7 +41,7 @@ async function flash(col,colCodes = ["#4CAF50","#008CBA","#f44336","#f6fa08"]) {
     /* await sleep(1000); */
     document.getElementById("button"+col).style.backgroundColor = colCodes[col-1];
     beep(500+(col*250));
-    await sleep(800);
+    await sleep(700);
     document.getElementById("button"+col).style.backgroundColor = "#1D1E13";
 }
 
