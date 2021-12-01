@@ -16,7 +16,7 @@ function beep(freq) {
     var oscillator = audioCtx.createOscillator();
     var gainNode = audioCtx.createGain();
   
-    duration=500;
+    duration=400;
 
     oscillator.connect(gainNode);
     gainNode.connect(audioCtx.destination);
